@@ -46,6 +46,15 @@ let titleToNumber = function(columnTitle) {
     return nilai;
 };
 
+// let titleToNumber = function(columnTitle) {
+//     let result = 0;
+//     for (let i = 0; i < columnTitle.length; i++) {
+//         const value = columnTitle.charCodeAt(i) - 64; // 'A'.charCodeAt(0) = 65
+//         result = result * 26 + value;
+//     }
+//     return result;
+// };
+
 console.log(titleToNumber("AA")) // 27
 console.log(titleToNumber("AB")) // 28
 console.log(titleToNumber("AN")) // 40
